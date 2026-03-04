@@ -2,7 +2,7 @@ const Stripe = require('stripe');
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 const ALLOWED_ORIGINS = [
-  'https://www.vooruit.nl',
+  'https://www.vooruitproject.nl',
   'https://vooruit.nl',
   'https://vooruit.webflow.io',
   'https://vooruit-91196d.webflow.io',
