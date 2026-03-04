@@ -67,8 +67,8 @@ module.exports = async function handler(req, res) {
           quantity: 1
         }],
         subscription_data: { metadata: metadata },
-        success_url: successUrl || 'https://vooruit.nl/bedankt',
-        cancel_url: cancelUrl || 'https://vooruit.nl/doneren',
+        success_url: successUrl || 'https://vooruitproject.nl/bedankt',
+        cancel_url: cancelUrl || 'https://vooruitproject.nl/steun-vooruit',
         locale: 'nl'
       });
     } else {
