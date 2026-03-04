@@ -2,9 +2,9 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 // Allowed origins - voeg je eigen domein toe
 const ALLOWED_ORIGINS = [
-  'https://www.vooruit.nl',  // Vervang met je echte domein
+  'https://www.vooruitproject.nl',  // Vervang met je echte domein
   'https://vooruit.nl',
-  'https://vooruit.webflow.io', // Je Webflow staging domein
+  'https://vooruit-91196d.webflow.io', // Je Webflow staging domein
   'http://localhost:3000'  // Voor lokaal testen
 ];
 
